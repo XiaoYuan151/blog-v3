@@ -2,16 +2,16 @@
 <ZWidget
 	card
 	dim
-	title="博客/技术社区"
-	bg-img="https://p.qlogo.cn/gh/169994096/169994096/100/"
+	title="技术交流"
+	bg-img="https://p.qlogo.cn/gh/920675779/920675779/100"
 	bg-right
 >
 	<div class="title text-creative">
-		纸网接入点
+		XiaoYuan's Group #1
 	</div>
 
 	<Tip copy :icon="false" :tip-options="{ placement: 'left' }">
-		<Icon name="ri:qq-fill" />169994096
+		<Icon name="ri:qq-fill" /> 920675779
 	</Tip>
 </ZWidget>
 </template>

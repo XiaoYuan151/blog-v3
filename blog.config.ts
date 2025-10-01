@@ -35,10 +35,11 @@ const blogConfig = {
 	article: {
 		categories: {
 			[basicConfig.defaultCategory]: { icon: 'ph:folder-dotted-bold' },
-			人工智能: { icon: 'hugeicons:neural-network', color: '#3af' },
-			网络: { icon: 'ph:globe-bold', color: '#3ba' },
 			生活: { icon: 'ph:shooting-star-bold', color: '#f77' },
-			代码: { icon: 'ph:code-bold', color: '#77f' },
+			学习: { icon: 'ph:notebook-bold', color: '#77f' },
+			代码: { icon: 'ph:code-bold', color: '#d4a' },
+			网络: { icon: 'ph:globe-bold', color: '#3ba' },
+			人工智能: { icon: 'hugeicons:neural-network', color: '#3af' },
 		},
 		defaultCategoryIcon: 'ph:folder-bold',
 		/** 分类排序方式，键为排序字段，值为显示名称 */

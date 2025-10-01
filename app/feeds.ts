@@ -24,7 +24,7 @@ export default [
 				link: 'https://ai.xiaoyuan151.com',
 				icon: getFavicon('ai.xiaoyuan151.com'),
 				avatar: getFavicon('ai.xiaoyuan151.com'),
-				archs: ['VitePress', 'Cloudflare'],
+				archs: ['VitePress', 'GitHub Pages'],
 				date: '2025-08-15',
 				comment: '欢迎来到小源人工智能官方网站！',
 			},

@@ -33,7 +33,7 @@ export default defineAppConfig({
 			/** 归档页面每年标题对应的年龄 */
 			birthYear: 2009,
 			/** blog-stats widget 的预置文本 */
-			wordCount: '约10万',
+			wordCount: '约 10 万',
 		},
 	},
 

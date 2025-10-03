@@ -10,3 +10,10 @@ tags: [生活, 学习]
 # 标题
 
 正文
+
+```python
+print("Hello, World!")
+```
+```js
+console.log("Hello, World!")
+```

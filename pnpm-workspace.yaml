@@ -13,7 +13,7 @@ catalogs:
     remark-reading-time: ^2.0.2
     shiki: ^3.13.0
   framework:
-    '@dxup/nuxt': ^0.0.1
+    '@dxup/nuxt': ^0.1.1
     ci-info: ^4.3.1
     cross-env: ^10.0.0
     nuxt: ^4.1.3

@@ -131,8 +131,8 @@ catalogs:
       specifier: ^13.9.0
       version: 13.9.0
     '@vueuse/router':
-      specifier: 14.0.0-alpha.0
-      version: 14.0.0-alpha.0
+      specifier: 14.0.0-beta.1
+      version: 14.0.0-beta.1
     date-fns:
       specifier: ^4.1.0
       version: 4.1.0
@@ -214,7 +214,7 @@ importers:
         version: 13.9.0(magicast@0.3.5)(nuxt@4.1.3(@parcel/watcher@2.5.1)(@types/node@24.5.2)(@vue/compiler-sfc@3.5.22)(db0@0.3.4)(eslint@9.37.0(jiti@2.6.1))(ioredis@5.8.1)(magicast@0.3.5)(meow@13.2.0)(optionator@0.9.4)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylelint@16.25.0(typescript@5.9.3))(terser@5.44.0)(typescript@5.9.3)(vite@7.1.10(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@vueuse/router':
         specifier: catalog:util
-        version: 14.0.0-alpha.0(vue-router@4.6.3(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))
+        version: 14.0.0-beta.1(vue-router@4.6.3(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))
       abcjs:
         specifier: catalog:content
         version: 6.5.2
@@ -2504,8 +2504,8 @@ packages:
       nuxt: ^3.0.0 || ^4.0.0-0
       vue: ^3.5.0
 
-  '@vueuse/router@14.0.0-alpha.0':
-    resolution: {integrity: sha512-fyV3YxpeS22u7O0lzil0qWho7mAaSFe3YuwC06et9jk/BqpvedRS165ThJprVtq2r30i1wOyiR3s7aI1etfYCA==}
+  '@vueuse/router@14.0.0-beta.1':
+    resolution: {integrity: sha512-cESTd8Zk7o+uS3/wqghSt8f7pr32eM/sZ8h3smhxgiLyUjWUFTpNI898fsgUB5tcgS1A++7vjV5Kv6+iLJsRcA==}
     peerDependencies:
       vue: ^3.5.0
       vue-router: ^4.0.0
@@ -2515,8 +2515,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/shared@14.0.0-alpha.0':
-    resolution: {integrity: sha512-J8cmTJkB0hAwPBXRR5U3N9FJkhPBrhyYiQm21kZ3j/o8W69Pg6JlPSxLOJtkg+AwC/r5x7Gpq2Vglv84vHotwA==}
+  '@vueuse/shared@14.0.0-beta.1':
+    resolution: {integrity: sha512-AzHAVjdGFiaaYgMILfw5x+SrQeLI+93LZFiRStNQqbzkgzppRgKR0paHc/gwtfFpQBkVd53aqprgyhUa/wOb0g==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -9163,9 +9163,9 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@vueuse/router@14.0.0-alpha.0(vue-router@4.6.3(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))':
+  '@vueuse/router@14.0.0-beta.1(vue-router@4.6.3(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
-      '@vueuse/shared': 14.0.0-alpha.0(vue@3.5.22(typescript@5.9.3))
+      '@vueuse/shared': 14.0.0-beta.1(vue@3.5.22(typescript@5.9.3))
       vue: 3.5.22(typescript@5.9.3)
       vue-router: 4.6.3(vue@3.5.22(typescript@5.9.3))
 
@@ -9173,7 +9173,7 @@ snapshots:
     dependencies:
       vue: 3.5.22(typescript@5.9.3)
 
-  '@vueuse/shared@14.0.0-alpha.0(vue@3.5.22(typescript@5.9.3))':
+  '@vueuse/shared@14.0.0-beta.1(vue@3.5.22(typescript@5.9.3))':
     dependencies:
       vue: 3.5.22(typescript@5.9.3)
 

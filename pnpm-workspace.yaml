@@ -27,7 +27,7 @@ catalogs:
     '@antfu/eslint-config': ^5.4.1
     '@zinkawaii/stylelint-config': ^0.3.3
     cspell: ^9.2.1
-    eslint: ^9.36.0
+    eslint: ^9.37.0
     stylelint: ^16.25.0
   ui:
     '@iconify-json/catppuccin': ^1.2.17

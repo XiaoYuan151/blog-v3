@@ -9,13 +9,8 @@ create-pages:
     # a pages deploy
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
   # Functions that should be executed before the build script is run
-  cache:
-    key:
-      files:
-        - pnpm-lock.yaml
-    paths:
-      - .pnpm-store
   before_script:
+    - export SHELL=/bin/sh
     - curl -fsSL https://get.pnpm.io/install.sh | sh -
     - pnpm config set store-dir .pnpm-store
     - pnpm i --no-frozen-lockfile

@@ -35,6 +35,7 @@ const blogConfig = {
 	article: {
 		categories: {
 			[basicConfig.defaultCategory]: { icon: 'ph:folder-dotted-bold' },
+			置顶: { icon: 'ph:push-pin-bold', color: '#7f7' },
 			生活: { icon: 'ph:shooting-star-bold', color: '#f77' },
 			学习: { icon: 'ph:notebook-bold', color: '#77f' },
 			代码: { icon: 'ph:code-bold', color: '#d4a' },

@@ -11,7 +11,7 @@ catalogs:
     rehype-katex: ^7.0.1
     remark-math: ^6.0.0
     remark-reading-time: ^2.0.2
-    shiki: ^3.13.0
+    shiki: ^3.14.0
   framework:
     '@dxup/nuxt': ^0.2.0
     ci-info: ^4.3.1

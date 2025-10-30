@@ -13,8 +13,8 @@ catalogs:
       specifier: ^3.2.2
       version: 3.2.2
     '@shikijs/colorized-brackets':
-      specifier: ^3.13.0
-      version: 3.13.0
+      specifier: ^3.14.0
+      version: 3.14.0
     '@shikijs/transformers':
       specifier: ^3.13.0
       version: 3.13.0
@@ -202,7 +202,7 @@ importers:
         version: 0.11.2(magicast@0.5.1)(pinia@3.0.3(typescript@5.9.3)(vue@3.5.22(typescript@5.9.3)))
       '@shikijs/colorized-brackets':
         specifier: catalog:content
-        version: 3.13.0
+        version: 3.14.0
       '@shikijs/transformers':
         specifier: catalog:content
         version: 3.13.0
@@ -2180,8 +2180,8 @@ packages:
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
 
-  '@shikijs/colorized-brackets@3.13.0':
-    resolution: {integrity: sha512-u3lsHK7gtA5nb1SpWrzzWH5zVdLPqzj9Ynn1tvYfh+mMcA44RDU7jXA5xPuAatdsOeZh4l2VpbZuFPAE2JGvCg==}
+  '@shikijs/colorized-brackets@3.14.0':
+    resolution: {integrity: sha512-kI2ppSSKykx2Cx6amgVJmPQVp69gOfry3kgb5KttYtfDb4DraaKGkAa1PwE/hKFb7f1CCMqS1aFaEG6HCDvJAg==}
 
   '@shikijs/core@3.13.0':
     resolution: {integrity: sha512-3P8rGsg2Eh2qIHekwuQjzWhKI4jV97PhvYjYUzGqjvJfqdQPz+nMlfWahU24GZAyW1FxFI1sYjyhfh5CoLmIUA==}
@@ -8880,9 +8880,9 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@shikijs/colorized-brackets@3.13.0':
+  '@shikijs/colorized-brackets@3.14.0':
     dependencies:
-      shiki: 3.13.0
+      shiki: 3.14.0
 
   '@shikijs/core@3.13.0':
     dependencies:

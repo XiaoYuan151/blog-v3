@@ -61,9 +61,6 @@ catalogs:
     typescript:
       specifier: ^5.9.3
       version: 5.9.3
-    unplugin-yaml:
-      specifier: ^3.0.6
-      version: 3.0.6
     vue:
       specifier: ^3.5.22
       version: 3.5.22
@@ -334,8 +331,8 @@ importers:
         specifier: catalog:framework
         version: 5.9.3
       unplugin-yaml:
-        specifier: catalog:framework
-        version: 3.0.6(@nuxt/kit@4.2.0(magicast@0.5.1))(@nuxt/schema@4.2.0)(esbuild@0.25.11)(rollup@4.52.5)(vite@7.1.12(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1))
+        specifier: 3.0.7
+        version: 3.0.7(@nuxt/kit@4.2.0(magicast@0.5.1))(@nuxt/schema@4.2.0)(esbuild@0.25.11)(rollup@4.52.5)(vite@7.1.12(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1))
 
   packages/remark-music:
     dependencies:
@@ -6320,8 +6317,8 @@ packages:
       vue-router:
         optional: true
 
-  unplugin-yaml@3.0.6:
-    resolution: {integrity: sha512-SSQIoUKx5SBJSKm4pUKHLKF9nsYR7znU5iquOtmNfNr2LXL9d8QjnBKJM53RipQqdGbEZ1+BmDGVI+fTKAL0rA==}
+  unplugin-yaml@3.0.7:
+    resolution: {integrity: sha512-IoT6Ys06iLFnOCwj89EtXvpzHyuLn4bOLMJQotOWZQfLuVPEkPymqZ9/Uczk7JXru5d354PDWuqNZXhu+34q5g==}
     engines: {node: '>=20'}
     peerDependencies:
       '@nuxt/kit': '>=3'
@@ -14074,7 +14071,7 @@ snapshots:
       - typescript
       - vue
 
-  unplugin-yaml@3.0.6(@nuxt/kit@4.2.0(magicast@0.5.1))(@nuxt/schema@4.2.0)(esbuild@0.25.11)(rollup@4.52.5)(vite@7.1.12(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1)):
+  unplugin-yaml@3.0.7(@nuxt/kit@4.2.0(magicast@0.5.1))(@nuxt/schema@4.2.0)(esbuild@0.25.11)(rollup@4.52.5)(vite@7.1.12(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1)):
     dependencies:
       '@rollup/pluginutils': 5.3.0(rollup@4.52.5)
       unplugin: 2.3.10

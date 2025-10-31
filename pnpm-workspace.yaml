@@ -55,7 +55,7 @@ catalogs:
     p-limit: ^7.1.1
     parse-domain: ^8.2.2
     radash: ^12.1.1
-    rimraf: ^6.0.1
+    rimraf: ^6.1.0
     strip-ansi: ^7.1.2
 
 onlyBuiltDependencies:

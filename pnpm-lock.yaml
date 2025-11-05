@@ -61,6 +61,9 @@ catalogs:
     typescript:
       specifier: ^5.9.3
       version: 5.9.3
+    unplugin-yaml:
+      specifier: ^3.0.7
+      version: 3.0.7
     vue:
       specifier: ^3.5.22
       version: 3.5.22
@@ -331,7 +334,7 @@ importers:
         specifier: catalog:framework
         version: 5.9.3
       unplugin-yaml:
-        specifier: 3.0.7
+        specifier: catalog:framework
         version: 3.0.7(@nuxt/kit@4.2.0(magicast@0.5.1))(@nuxt/schema@4.2.0)(esbuild@0.25.11)(rollup@4.52.5)(vite@7.1.12(@types/node@24.5.2)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))
 
   packages/remark-music:
@@ -12299,7 +12302,7 @@ snapshots:
 
   nuxt-site-config-kit@3.2.9(magicast@0.5.1)(vue@3.5.22(typescript@5.9.3)):
     dependencies:
-      '@nuxt/kit': 4.1.2(magicast@0.5.1)
+      '@nuxt/kit': 4.2.0(magicast@0.5.1)
       pkg-types: 2.3.0
       site-config-stack: 3.2.9(vue@3.5.22(typescript@5.9.3))
       std-env: 3.10.0

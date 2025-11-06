@@ -21,7 +21,7 @@ catalogs:
     typescript: ^5.9.3
     tsup: ^8.5.0
     unplugin-yaml: ^3.0.7
-    vue: ^3.5.22
+    vue: ^3.5.23
     vue-router: ^4.6.3
   quality:
     '@antfu/eslint-config': ^5.4.1
@@ -42,7 +42,7 @@ catalogs:
     vue-virtual-scroller: 2.0.0-beta.8
   util:
     '@clack/prompts': ^0.11.0
-    '@pinia/nuxt': ^0.11.2
+    '@pinia/nuxt': ^0.11.3
     '@vueuse/core': ^13.9.0
     '@vueuse/nuxt': ^13.9.0
     '@vueuse/router': 14.0.0

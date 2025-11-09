@@ -16,12 +16,12 @@ catalogs:
     '@dxup/nuxt': ^0.2.1
     ci-info: ^4.3.1
     cross-env: ^10.1.0
-    nuxt: ^4.2.0
+    nuxt: ^4.2.1
     sass-embedded: ^1.93.3
     typescript: ^5.9.3
     tsup: ^8.5.0
     unplugin-yaml: ^3.0.7
-    vue: ^3.5.22
+    vue: ^3.5.24
     vue-router: ^4.6.3
   quality:
     '@antfu/eslint-config': ^5.4.1
@@ -42,7 +42,7 @@ catalogs:
     vue-virtual-scroller: 2.0.0-beta.8
   util:
     '@clack/prompts': ^0.11.0
-    '@pinia/nuxt': ^0.11.2
+    '@pinia/nuxt': ^0.11.3
     '@vueuse/core': ^13.9.0
     '@vueuse/nuxt': ^13.9.0
     '@vueuse/router': 14.0.0

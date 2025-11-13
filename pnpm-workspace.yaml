@@ -13,13 +13,13 @@ catalogs:
     remark-reading-time: ^2.0.2
     shiki: ^3.15.0
   framework:
-    '@dxup/nuxt': ^0.2.1
+    '@dxup/nuxt': ^0.2.2
     ci-info: ^4.3.1
     cross-env: ^10.1.0
     nuxt: ^4.2.1
     sass-embedded: ^1.93.3
     typescript: ^5.9.3
-    tsup: ^8.5.0
+    tsup: ^8.5.1
     unplugin-yaml: ^3.0.7
     vue: ^3.5.24
     vue-router: ^4.6.3

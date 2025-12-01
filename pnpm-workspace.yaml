@@ -28,7 +28,7 @@ catalogs:
     '@zinkawaii/stylelint-config': ^0.3.4
     cspell: ^9.3.2
     eslint: ^9.39.1
-    stylelint: ^16.25.0
+    stylelint: ^16.26.1
   ui:
     '@iconify-json/catppuccin': ^1.2.17
     '@iconify-json/ph': ^1.2.2
